@@ -35,12 +35,6 @@ exports.getTasks = async (req, res) => {
   }
 }
 
-exports.paginate = async (req, res) => {
-
-  console.log("first")
-  req.checks = { user: req.user.id }
-  await paginateQuery(Task, req, res)
-}
 
 exports.getTask = async (req, res) => {
   try {

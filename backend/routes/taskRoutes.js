@@ -12,7 +12,4 @@ router.delete("/:taskId", verifyAccessToken, deleteTask);
 
 
 
-// router.get("/paginate/", verifyAccessToken, paginate);
-
-
 module.exports = router;
