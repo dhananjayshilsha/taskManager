@@ -69,7 +69,7 @@ const Tasks = () => {
 
         <div className=' flex space-x-5'>
           <div>
-            {tasks.length !== 0 && <h2 className='my-5 ml-2 md:ml-0 text-xl'>Tasks ({tasks.length})</h2>}
+            {tasks?.length !== 0 && <h2 className='my-5 ml-2 md:ml-0 text-xl'>Tasks ({tasks?.length})</h2>}
           </div>
           <div className='my-2 ml-2 md:ml-0'>
             <Input
@@ -96,7 +96,7 @@ const Tasks = () => {
           <Loader />
         ) : (
           <div>
-            {tasks.length === 0 ? (
+            {tasks?.length === 0 ? (
 
               <div className='w-[600px] h-[300px] flex items-center justify-center gap-4 '>
                 <span>No tasks found</span>
