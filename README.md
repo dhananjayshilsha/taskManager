@@ -2,7 +2,7 @@
  Click on the live link to see the demo. Thanks for visiting !<br>
 A MERN application for basic tasks management.
 
-[**LIVE LINK**](https://taskmanagementapp-c97a.onrender.com)
+[**LIVE LINK**](http://3.106.222.69:3000)
 
 
 ## Features
@@ -88,8 +88,4 @@ Following are the major dependencies of the project:
 - /tasks/add        Add new task
 - /tasks/:taskId    Edit a task
 </pre>
-
-## Contact
-
-- Email: devangvartak2304@gmail.com
 
