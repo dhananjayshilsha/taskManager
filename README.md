@@ -4,10 +4,6 @@ A MERN application for basic tasks management.
 
 [**LIVE LINK**](https://taskmanagementapp-c97a.onrender.com)
 
-## Video
-
-https://github.com/Devang2304/Task-Management-Application/assets/69463638/9c33a36a-9717-41f0-b389-848ea1352fc0
-
 
 ## Features
 
